@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.navbar{
+  background-color: black;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.holiday-header{
+    
+    font-size: 27px;
+    font-weight: 600;
+    
+    
+}
+.holiday-header a {
+    color: #FCDD44;
+    text-decoration: none;
+    display: flex;
+    padding: 20px;
+    padding-left: 250px;
+    font-family: 'Open Sans', sans-serif;
+}
+.listoflinks {
+    color: gray;
+    display: flex;
+    
+   
+    margin-right: 25%;
+    
+    
+}
+.listoflinks a {
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 30px 30px;
+    text-transform: uppercase;
+
+
+}
+
+
+.holiday-header:hover a {
+    color: #FF720B;
+}
+
+
+    
+
+.homelink:hover {
+    background-color: #FCDD44;
+}
+
+img {
+    width: 100%;
+}
+
+.text {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    
+}
+.text h1 {
+    font-size: 50px;
+    
+}
+.text h3 {
+    font-size: 30px;
+}
+
+.text button {
+    width: 150px;
+    height: 50px;
+    background-color: rgba(252, 221, 68, 0.39);
+    color: #FFF;
+    border: 1px solid #FCDD44;
+}
+
+.ipsumcolor {
+    color: #FCDD44;
+}
+
+
