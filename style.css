@@ -1,7 +1,9 @@
-*{
+*
+{
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+  text-decoration: none;
 }
 .navbar{
   background-color: black;
@@ -59,6 +61,27 @@
 
 img {
     width: 100%;
+
+
+    
+    
+}
+
+body {
+    font-family: sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+.picture {
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+    
+}
+.picture img {
+    height: 60%;
+    width: 99%;
 }
 
 .text {
@@ -73,6 +96,15 @@ img {
 }
 .text h1 {
     font-size: 50px;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 65px;
+    color: white;
+
     
 }
 .text h3 {
@@ -89,6 +121,43 @@ img {
 
 .ipsumcolor {
     color: #FCDD44;
+
+    font-weight: 500;
+}
+
+.text span {
+    color: rgb(252,221,68);
+}
+
+.card { 
+    position: absolute;
+    top: -50px;
+   left:  550px;
+    border-radius: 0%;
+}
+.card-body {
+   color: white;
+}
+
+.card2 {
+    position: absolute;
+    top: -555px;
+  right: 10px;
+    border-radius: 0%;
+}
+
+.tours {
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+}
+
+.tours h1 {
+    position: relative;
+    top: 30%;
+    left: 44%;
+    font-size: 30px;
+
 }
 
 
