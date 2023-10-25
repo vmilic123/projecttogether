@@ -13,12 +13,12 @@ body {
 .picture {
     width: 100%;
     height: 100%;
-    background-color: gray;
+    background-color: lightgray;
     
 }
 .picture img {
     height: 60%;
-    width: 100%;
+    width: 99%;
 }
 
 .text {
@@ -58,3 +58,18 @@ body {
   right: 10px;
     border-radius: 0%;
 }
+
+.tours {
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+}
+
+.tours h1 {
+    position: relative;
+    top: 30%;
+    left: 44%;
+    font-size: 30px;
+}
+
+
